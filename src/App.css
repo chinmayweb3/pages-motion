@@ -10,3 +10,101 @@ body {
 body {
   box-sizing: border-box;
 }
+
+.motion-scale {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.motion-scale-plane,
+.motion-scale-plane2,
+.motion-scale-plane4,
+.motion-scale-plane5,
+.motion-scale-plane6,
+.motion-scale-plane7,
+.motion-scale-plane3 {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: chartreuse;
+  left: 0;
+  width: 20%;
+  height: 100vh;
+  z-index: 50;
+  /* transform-origin: top; */
+  /* transform: rotateZ(45deg); */
+  /* transform: skewX(-45deg); */
+}
+
+.motion-scale-h1,
+.motion-scale-h12,
+.motion-scale-h14,
+.motion-scale-h15,
+.motion-scale-h16,
+.motion-scale-h17,
+.motion-scale-h13 {
+  /* transform: rotateZ(-45deg); */
+  position: absolute;
+  top: 50vh;
+  font-size: 92px;
+  color: black;
+  font-weight: bold;
+  /* z-index: 100; */
+  left: 50vw;
+  line-height: 1;
+  transform: translate(-50%, -50%);
+}
+
+.motion-scale-plane2 {
+  background-color: blueviolet;
+  left: 20%;
+}
+
+.motion-scale-h12 {
+  left: calc(50vw - 100%);
+}
+
+.motion-scale-plane3 {
+  background-color: brown;
+  left: 40%;
+}
+.motion-scale-h13 {
+  left: calc(50vw - 200%);
+}
+
+.motion-scale-plane4 {
+  background-color: aqua;
+  left: 60%;
+}
+.motion-scale-h14 {
+  left: calc(50vw - 300%);
+}
+
+.motion-scale-plane5 {
+  background-color: rgb(194, 35, 180);
+  left: 60%;
+}
+.motion-scale-h15 {
+  left: calc(50vw - 300%);
+}
+
+.motion-scale-plane6 {
+  background-color: rgb(107, 58, 103);
+  left: 80%;
+}
+.motion-scale-h16 {
+  left: calc(50vw - 400%);
+}
+
+.motion-scale-plane7 {
+  background-color: rgb(79, 171, 190);
+  left: 100%;
+}
+.motion-scale-h17 {
+  left: calc(50vw - 500%);
+}
