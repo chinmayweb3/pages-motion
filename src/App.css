@@ -21,7 +21,10 @@ body {
   left: 0;
 }
 
+.motion-scale-plane-1,
+.motion-scale-plane0,
 .motion-scale-plane,
+.motion-scale-plane8,
 .motion-scale-plane2,
 .motion-scale-plane4,
 .motion-scale-plane5,
@@ -41,7 +44,10 @@ body {
   /* transform: skewX(-45deg); */
 }
 
+.motion-scale-h1-1,
 .motion-scale-h1,
+.motion-scale-h10,
+.motion-scale-h18,
 .motion-scale-h12,
 .motion-scale-h14,
 .motion-scale-h15,
@@ -58,6 +64,24 @@ body {
   left: 50vw;
   line-height: 1;
   transform: translate(-50%, -50%);
+}
+
+.motion-scale-plane-1 {
+  background-color: rgb(197, 43, 43);
+  left: -40%;
+}
+
+.motion-scale-h1-1 {
+  left: calc(50vw + 200%);
+}
+
+.motion-scale-plane0 {
+  background-color: rgb(255, 255, 255);
+  left: -20%;
+}
+
+.motion-scale-h10 {
+  left: calc(50vw + 100%);
 }
 
 .motion-scale-plane2 {
@@ -87,24 +111,33 @@ body {
 
 .motion-scale-plane5 {
   background-color: rgb(194, 35, 180);
-  left: 60%;
+  left: 80%;
 }
 .motion-scale-h15 {
-  left: calc(50vw - 300%);
+  left: calc(50vw - 400%);
 }
 
 .motion-scale-plane6 {
   background-color: rgb(107, 58, 103);
-  left: 80%;
+  left: 100%;
 }
 .motion-scale-h16 {
-  left: calc(50vw - 400%);
+  left: calc(50vw - 500%);
 }
 
 .motion-scale-plane7 {
   background-color: rgb(79, 171, 190);
-  left: 100%;
+  left: 120%;
 }
 .motion-scale-h17 {
-  left: calc(50vw - 500%);
+  left: calc(50vw - 600%);
+}
+
+.motion-scale-plane8 {
+  background-color: blueviolet;
+  left: 140%;
+}
+
+.motion-scale-h18 {
+  left: calc(50vw - 700%);
 }

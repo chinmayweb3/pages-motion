@@ -11,14 +11,14 @@ const MotionFrame = (props) => {
       initial={{ transform: "skewX(-45deg)" }}
       animate={{ transform: "skewX(-45deg) translate(0,900px)" }}
       exit={{ transform: "skewX(-45deg) translate(0,0)" }}
-      transition={{ duration: 2, ease: "circOut" }}
+      transition={{ duration: props.duration / 5, ease: "easeInOut" }}
       className={`${props.parentClass}`}
     >
       <motion.h1
         initial={{ transform: "skewX(45deg) translate(calc(-50% + 45px),-50%)" }}
         animate={{ transform: "skewX(45deg) translate(calc(-50% + 900px + 45px),calc(-50% - 900px))" }}
         exit={{ transform: "skewX(45deg) translate(calc(-50% + 45px),-50%)" }}
-        transition={{ duration: 2, ease: "circOut" }}
+        transition={{ duration: props.duration / 5, ease: "easeInOut" }}
         className={`${props.childClass}`}
       >
         Motion
@@ -29,13 +29,16 @@ const MotionFrame = (props) => {
 
 const Framer = () => (
   <>
-    <MotionFrame parentClass={"motion-scale-plane"} childClass={"motion-scale-h1"} />
-    <MotionFrame parentClass={"motion-scale-plane2"} childClass={"motion-scale-h12"} />
-    <MotionFrame parentClass={"motion-scale-plane3"} childClass={"motion-scale-h13"} />
-    <MotionFrame parentClass={"motion-scale-plane4"} childClass={"motion-scale-h14"} />
-    <MotionFrame parentClass={"motion-scale-plane5"} childClass={"motion-scale-h15"} />
-    <MotionFrame parentClass={"motion-scale-plane6"} childClass={"motion-scale-h16"} />
-    <MotionFrame parentClass={"motion-scale-plane7"} childClass={"motion-scale-h17"} />
+    <MotionFrame parentClass={"motion-scale-plane-1"} childClass={"motion-scale-h1-1"} duration={1} />
+    <MotionFrame parentClass={"motion-scale-plane0"} childClass={"motion-scale-h10"} duration={2} />
+    <MotionFrame parentClass={"motion-scale-plane"} childClass={"motion-scale-h1"} duration={3} />
+    <MotionFrame parentClass={"motion-scale-plane2"} childClass={"motion-scale-h12"} duration={4} />
+    <MotionFrame parentClass={"motion-scale-plane3"} childClass={"motion-scale-h13"} duration={5} />
+    <MotionFrame parentClass={"motion-scale-plane4"} childClass={"motion-scale-h14"} duration={6} />
+    <MotionFrame parentClass={"motion-scale-plane5"} childClass={"motion-scale-h15"} duration={7} />
+    <MotionFrame parentClass={"motion-scale-plane6"} childClass={"motion-scale-h16"} duration={8} />
+    <MotionFrame parentClass={"motion-scale-plane7"} childClass={"motion-scale-h17"} duration={9} />
+    {/* <MotionFrame parentClass={"motion-scale-plane8"} childClass={"motion-scale-h18"} duration={10} /> */}
     {/* <motion.div
       initial={{ transform: "skewX(-45deg)" }}
       animate={{ transform: "skewX(-45deg) translate(0,900px)" }}
