@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 export function framerComponent(Component) {
-  console.log("sahdes", arrayofShade.length);
   return function () {
     return (
       <>
@@ -43,7 +42,7 @@ const MotionFramerAuto = (props) => (
 
 const Framer = (props) => (
   <>
-    {arrayofShade.slice(0, 30).map((shade, idx) => {
+    {arrayofShade.slice(0, 25).map((shade, idx) => {
       const duration = Math.random() * (12 - 1 + 1) + 1;
       return (
         <MotionFramerAuto
@@ -58,7 +57,7 @@ const Framer = (props) => (
       );
     })}
 
-    {arrayofShade.slice(10).map((shade, idx) => {
+    {arrayofShade.slice(15).map((shade, idx) => {
       const duration = Math.random() * (12 - 1 + 1) + 1;
       return (
         <MotionFramerAuto
@@ -76,72 +75,61 @@ const Framer = (props) => (
 );
 
 const arrayofShade = [
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#573586", text: "#fff" },
-  { color: "#583786", text: "#fff" },
-  { color: "#593886", text: "#fff" },
-  { color: "#5a3a86", text: "#fff" },
-  { color: "#5b3c86", text: "#fff" },
-  { color: "#5c3d87", text: "#fff" },
-  { color: "#5d3f87", text: "#fff" },
-  { color: "#5e4187", text: "#fff" },
-  { color: "#5f4287", text: "#fff" },
-  { color: "#604487", text: "#fff" },
-  { color: "#614687", text: "#fff" },
-  { color: "#624887", text: "#fff" },
-  { color: "#634a87", text: "#fff" },
-  { color: "#654b87", text: "#fff" },
-  { color: "#664d87", text: "#fff" },
-  { color: "#674f87", text: "#fff" },
-  { color: "#685187", text: "#fff" },
-  { color: "#695387", text: "#fff" },
-  { color: "#6a5587", text: "#fff" },
-  { color: "#6b5787", text: "#fff" },
-  { color: "#6c5986", text: "#fff" },
-  { color: "#6d5b86", text: "#fff" },
-  { color: "#6e5d86", text: "#fff" },
-  { color: "#6f5f86", text: "#fff" },
-  { color: "#6e5d86", text: "#fff" },
-  { color: "#6f5f86", text: "#fff" },
-  { color: "#6e5d86", text: "#fff" },
-  { color: "#6f5f86", text: "#fff" },
-  { color: "#706186", text: "#fff" },
-  { color: "#716385", text: "#fff" },
-  { color: "#736585", text: "#fff" },
-  { color: "#746785", text: "#fff" },
-  { color: "#756984", text: "#fff" },
-  { color: "#766c84", text: "#fff" },
-  { color: "#776e84", text: "#fff" },
-  { color: "#787083", text: "#fff" },
-  { color: "#797283", text: "#fff" },
-  { color: "#7a7482", text: "#fff" },
-  { color: "#7b7782", text: "#fff" },
-  { color: "#7d7982", text: "#fff" },
-  { color: "#7e7b81", text: "#fff" },
-  { color: "#7f7e81", text: "#fff" },
-  { color: "#808080", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
-  { color: "#563485", text: "#fff" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#eef2f2", text: "#0e0e11" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
+  { color: "#0e0e11", text: "#eef2f2" },
 ];
