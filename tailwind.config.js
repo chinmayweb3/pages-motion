@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        offBlack: "#0e0e11",
+        offWhite: "#eef2f2",
+      },
+    },
 
     fontFamily: {
       orbitron: ["Orbitron", "sans-serif"],
