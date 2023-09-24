@@ -42,6 +42,7 @@ const MotionFramerAuto = (props) => (
 
 const Framer = (props) => (
   <>
+    {/* <div className="fixed top-0 left-0 "> */}
     {arrayofShade.slice(0, 25).map((shade, idx) => {
       const duration = Math.random() * (12 - 1 + 1) + 1;
       return (
@@ -71,6 +72,7 @@ const Framer = (props) => (
         />
       );
     })}
+    {/* </div> */}
   </>
 );
 

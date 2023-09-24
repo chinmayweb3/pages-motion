@@ -9,8 +9,8 @@ function App() {
   const location = useLocation();
   return (
     <div>
+      <Navbar />
       <AnimatePresence mode="wait">
-        <Navbar />
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
