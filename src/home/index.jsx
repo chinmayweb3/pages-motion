@@ -4,8 +4,9 @@ import { framerComponent } from "../components/HOC/framerComponent";
 
 const Home = () => {
   return (
-    <main className="h-[100vh] grid place-content-center bg-slate-500">
-      <Link to={"/about"}>About</Link>
+    <main className="h-[100vh] flex justify-center items-center">
+      <div className="basis-[50%] h-screen flex flex-col justify-center bg-offWhite"></div>
+      <div className="basis-[50%] h-full bg-offBlack z-[1]"></div>
     </main>
   );
 };
