@@ -7,7 +7,9 @@ import "./App.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
   <BrowserRouter>
-    <App />
+    <section id="tailwind-mode" class="ligt">
+      <App />
+    </section>
   </BrowserRouter>
   // </React.StrictMode>
 );
