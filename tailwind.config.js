@@ -7,6 +7,8 @@ export default {
       colors: {
         offBlack: "#111115",
         offWhite: "#eef2f2",
+        offGold: "#d5c455",
+        offGray: "#999999",
       },
     },
 

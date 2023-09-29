@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const LeftSection = () => {
   return (
     <div className="basis-[50%] h-screen flex justify-center flex-col">
-      <p className="text-[#f4cd58] font-orbitron font-semibold tracking-[2px] text-[16px]">UI Developer</p>
+      <p className="text-offGold font-orbitron font-bold tracking-[2px] text-[16px]">UI Developer</p>
       <h1 className="text-[72px] font-rajdhani font-black text-offBlack dark:text-offWhite d-mode leading-[1]">
         Lorem Lipsum <br /> Lorem Lipsu
       </h1>
