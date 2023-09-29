@@ -117,3 +117,7 @@ body {
 .flex-center {
   @apply flex justify-center items-center;
 }
+
+.d-mode {
+  @apply duration-[400ms] ease-out;
+}
