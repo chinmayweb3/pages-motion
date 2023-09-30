@@ -30,19 +30,19 @@ const ColorShade = () => (
 
 const LeftSide = () => (
   <div className="grid grid-cols-2 gap-[20px] h-fit text-offBlack dark:text-offWhite font-rajdhani text-[28px] z-[1]">
-    <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake">
+    <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-1">
       <p className="font-bold font-orbitron">990</p>
       <p className="text-[22px]">Client</p>
     </div>
-    <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col">
+    <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-2 ">
       <p className="font-bold font-orbitron">990</p>
       <p className="text-[22px]">Client</p>
     </div>
-    <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col">
+    <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-3 ">
       <p className="font-bold font-orbitron">990</p>
       <p className="text-[22px]">Client</p>
     </div>
-    <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col">
+    <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-4 ">
       <p className="font-bold font-orbitron">990</p>
       <p className="text-[22px]">Client</p>
     </div>

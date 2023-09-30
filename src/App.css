@@ -121,3 +121,40 @@ body {
 .d-mode {
   @apply duration-[400ms] ease-out;
 }
+.animate-shake-1 {
+  animation: animation-shake 1.5s linear infinite;
+  animation-delay: 1s;
+}
+.animate-shake-2 {
+  animation: animation-shake 1.5s linear infinite;
+  animation-delay: 1.5s;
+}
+.animate-shake-3 {
+  animation: animation-shake 1.5s linear infinite;
+  animation-delay: 1.8s;
+}
+.animate-shake-4 {
+  animation: animation-shake 1.5s linear infinite;
+  animation-delay: 0.8s;
+}
+
+@keyframes animation-shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(-1.5px, 0);
+  }
+  40% {
+    transform: translate(0, 1.5px);
+  }
+  60% {
+    transform: translate(1.5px, 0);
+  }
+  80% {
+    transform: translate(0, 1.5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
