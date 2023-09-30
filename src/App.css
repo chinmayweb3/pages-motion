@@ -29,7 +29,7 @@ body {
   top: 50vh;
   color: black;
   font-weight: bold;
-  left: 50vw;
+  left: 45vw;
   line-height: 1;
   transform: translate(-50%, -50%);
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .motion-scale-h1-1 {
-  left: calc(50vw + 200%);
+  left: calc(45vw + 200%);
 }
 
 .motion-scale-plane0 {
@@ -49,7 +49,7 @@ body {
 }
 
 .motion-scale-h10 {
-  left: calc(50vw + 100%);
+  left: calc(45vw + 100%);
 }
 
 .motion-scale-plane2 {
@@ -58,7 +58,7 @@ body {
 }
 
 .motion-scale-h12 {
-  left: calc(50vw - 100%);
+  left: calc(45vw - 100%);
 }
 
 .motion-scale-plane3 {
@@ -66,7 +66,7 @@ body {
   left: 40%;
 }
 .motion-scale-h13 {
-  left: calc(50vw - 200%);
+  left: calc(45vw - 200%);
 }
 
 .motion-scale-plane4 {
@@ -74,7 +74,7 @@ body {
   left: 60%;
 }
 .motion-scale-h14 {
-  left: calc(50vw - 300%);
+  left: calc(45vw - 300%);
 }
 
 .motion-scale-plane5 {
@@ -82,7 +82,7 @@ body {
   left: 80%;
 }
 .motion-scale-h15 {
-  left: calc(50vw - 400%);
+  left: calc(45vw - 400%);
 }
 
 .motion-scale-plane6 {
@@ -90,7 +90,7 @@ body {
   left: 100%;
 }
 .motion-scale-h16 {
-  left: calc(50vw - 500%);
+  left: calc(45vw - 500%);
 }
 
 .motion-scale-plane7 {
@@ -98,7 +98,7 @@ body {
   left: 120%;
 }
 .motion-scale-h17 {
-  left: calc(50vw - 600%);
+  left: calc(45vw - 600%);
 }
 
 .motion-scale-plane8 {
@@ -107,7 +107,7 @@ body {
 }
 
 .motion-scale-h18 {
-  left: calc(50vw - 700%);
+  left: calc(45vw - 700%);
 }
 
 .max-width {

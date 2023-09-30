@@ -35,7 +35,7 @@ const MotionFramerAuto = (props) => (
       exit={{ transform: "skewX(45deg) translate(calc(-50% + 45px),-50%)", transition: { duration: props.duration / 8, ease: "easeInOut" } }}
       className={`plane-h1-common font-orbitron font-semibold md:text-[116px] whitespace-nowrap text-[32px]`}
     >
-      PAGE TRANSITION
+      PAGE
     </motion.h1>
   </motion.div>
 );
