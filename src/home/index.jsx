@@ -13,14 +13,14 @@ const Home = () => {
           style={{
             clipPath: "polygon(20% 38%, 0 0, 0 54%, 47% 26%, 36% 59%, 95% 81%, 100% 59%, 100% 100%, 63% 48%, 57% 93%, 19% 50%, 77% 28%)",
           }}
-          className="dark:opacity-0 opacity-30 w-[50%] h-full bg-gradient-to-tr from-yellow-600 dark:from-cyan-700 to-cyan-600 dark:to-rose-500"
+          className="dark:opacity-0 opacity-30 w-[50%] h-full bg-gradient-to-tr from-yellow-600 to-cyan-600"
         />
         <div
           style={{
             transform: "rotateY(180deg)",
             clipPath: "polygon(20% 38%, 0 0, 0 54%, 47% 26%, 36% 59%, 95% 81%, 100% 59%, 100% 100%, 63% 48%, 57% 93%, 19% 50%, 77% 28%)",
           }}
-          className="opacity-0 dark:opacity-30 w-[50%] h-full bg-gradient-to-tr from-yellow-600 dark:from-pink-600 to-cyan-600 dark:to-rose-500"
+          className="opacity-0 dark:opacity-30 w-[50%] h-full bg-gradient-to-tr dark:from-pink-800 dark:to-amber-800"
         />
       </div>
 
