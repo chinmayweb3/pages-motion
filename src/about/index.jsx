@@ -4,7 +4,9 @@ import { framerComponent } from "../components/HOC/framerComponent";
 const About = () => (
   <main className="h bg-offWhite dark:bg-offBlack d-mode mt-[60px] sm:mt-[80px]">
     <div className="mx-auto w-[90%] ">
-      <h1 className="text-[56px] font-rajdhani font-bold text-offBlack dark:text-offWhite d-mode text-center pt-[100px] pb-[40px]">About Us</h1>
+      <h1 className="text-[42px] sm:text-[56px] font-rajdhani font-bold text-offBlack dark:text-offWhite d-mode text-center pt-[60px] sm:pt-[100px] sm:pb-[40px]">
+        About Us
+      </h1>
 
       <div className="py-[50px] grid xl:grid-cols-2 gap-[40px] relative">
         <ColorShade />

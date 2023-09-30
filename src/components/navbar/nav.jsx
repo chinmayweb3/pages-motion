@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full h-[60px] sm:h-[80px] bg-offBlack/90 dark:bg-offWhite/90 d-mode backdrop-blur-md z-[20] flex">
       <div className="h-[40px] my-auto max-width flex justify-between items-center text-offWhite dark:text-offWhite d-mode">
-        <h1 className="font-orbitron text-[28px] sm:text-[32px] uppercase text-offWhite dark:text-offBlack d-mode">Logo..</h1>
+        <h1 className="font-orbitron text-[26px] sm:text-[32px] uppercase text-offWhite dark:text-offBlack d-mode">Logo..</h1>
         <div className="flex-center text-[14px] sm:text-[16px] font-rajdhani font-normal tracking-[2px]">
           <ModeChange />
           <BtnChoose to="/" text="Home" />
-          <hr className="h-[40px] w-[1px] bg-offWhite dark:bg-offBlack" />
+          <hr className="h-[30px] sm:h-[40px] w-[1px] bg-offWhite dark:bg-offBlack" />
           <BtnChoose to="/about" text="About" />
         </div>
       </div>
@@ -32,7 +32,7 @@ const ModeChange = () => {
   };
 
   return (
-    <div onClick={modeChange} className="mx-[10px] h-[40px] w-[40px] relative overflow-hidden">
+    <div onClick={modeChange} className="sm:mx-[10px] h-[40px] w-[40px] relative overflow-hidden">
       <AnimatePresence>
         {!darkmode && (
           <motion.div
