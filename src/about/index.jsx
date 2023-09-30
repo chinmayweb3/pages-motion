@@ -53,13 +53,13 @@ const LeftSide = () => (
 
 const RightSide = () => (
   <div className=" text-offBlack dark:text-offWhite d-mode font-rajdhani z-[1]">
-    <h2 className="text-offGold font-orbitron font-bold text-[16px] tracking-[2px]">About me</h2>
-    <h2 className="pt-[15px] font-rajdhani text-[42px] font-semibold leading-[1.2]">A Full Stack Web Developer Based in India</h2>
-    <p className="font-rajdhani text-[18px] pt-[15px] text-[#999999]">
+    <h2 className="text-offGold font-orbitron font-bold text-[14px] sm:text-[16px] tracking-[2px]">About me</h2>
+    <h2 className="pt-[15px] font-rajdhani text-[32px] sm:text-[42px] font-semibold leading-[1.2]">A Full Stack Web Developer Based in India</h2>
+    <p className="font-rajdhani text-[16px] sm:text-[18px] pt-[15px] text-[#999999]">
       Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
     </p>
-    <div className="grid xl:grid-cols-2 gap-x-[30px] gap-y-[20px] pt-[40px] text-[16px] font-semibold">
-      <div className="grid grid-cols-[1fr_1.5fr] gap-[10px]">
+    <div className="grid xl:grid-cols-2 gap-x-[30px] gap-y-[10px] xl:gap-y-[20px] pt-[40px] text-[16px] font-semibold">
+      <div className="grid grid-cols-[1fr_2fr] sm:grid-cols-[1fr_1.5fr] gap-[10px]">
         <p>Name:</p>
         <p className="font-bold text-offGold">Clyde Nowitzki</p>
         <p>Date of birth :</p>
@@ -67,7 +67,7 @@ const RightSide = () => (
         <p>Address:</p>
         <p className="font-bold text-offGold">San Francisco CA 97987 USA</p>
       </div>
-      <div className="grid grid-cols-[1fr_1.5fr] gap-[10px]">
+      <div className="grid grid-cols-[1fr_2fr] sm:grid-cols-[1fr_1.5fr] gap-[10px]">
         <p>Zip code:</p>
         <p className="font-bold text-offGold">1000</p>
         <p>Email:</p>
@@ -77,6 +77,8 @@ const RightSide = () => (
       </div>
     </div>
 
-    <button className="uppercase bg-offGold px-[30px] text-[18px] py-[10px] font-rajdhani tracking-[2px] font-bold mt-[60px]">download cv</button>
+    <button className="uppercase bg-offGold px-[30px] text-[16px] sm:text-[18px] py-[10px] font-rajdhani tracking-[2px] font-semibold sm:font-bold mt-[60px]">
+      download cv
+    </button>
   </div>
 );

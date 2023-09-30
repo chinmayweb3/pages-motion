@@ -116,7 +116,7 @@ body {
 
 @media screen and (max-width: 736px) {
   .max-width {
-    @apply mx-auto w-[100%] pl-[8px] pr-[8px] max-w-[1500px];
+    @apply mx-auto w-[100%] pl-[10px] pr-[10px] max-w-[1500px];
   }
 }
 

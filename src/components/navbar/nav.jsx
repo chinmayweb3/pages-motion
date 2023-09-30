@@ -42,7 +42,7 @@ const ModeChange = () => {
             exit={{ top: "-100%" }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
-            <FiSun className={`fill-offWhite cursor-pointer w-[15px] md:w-[20px] h-[15px] md:h-[20px] `} />
+            <FiSun className={`fill-offWhite cursor-pointer w-[18px] md:w-[20px] h-[18px] md:h-[20px] `} />
           </motion.div>
         )}
       </AnimatePresence>
@@ -55,7 +55,7 @@ const ModeChange = () => {
             exit={{ top: "-100%" }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
-            <FiMoon className={`fill-offBlack stroke-0 cursor-pointer w-[15px] md:w-[20px] h-[15px] md:h-[20px] `} />
+            <FiMoon className={`fill-offBlack stroke-0 cursor-pointer w-[18px] md:w-[20px] h-[18px] md:h-[20px] `} />
           </motion.div>
         )}
       </AnimatePresence>
