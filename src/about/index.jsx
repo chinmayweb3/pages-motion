@@ -31,19 +31,19 @@ const ColorShade = () => (
 const LeftSide = () => (
   <div className="grid grid-cols-2 gap-[20px] h-fit text-offBlack dark:text-offWhite font-rajdhani text-[28px] z-[1]">
     <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-1">
-      <p className="font-bold font-orbitron">990</p>
+      <p className="font-bold font-orbitron text-offGold">990</p>
       <p className="text-[22px]">Client</p>
     </div>
     <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-2 ">
-      <p className="font-bold font-orbitron">990</p>
+      <p className="font-bold font-orbitron text-offGold">990</p>
       <p className="text-[22px]">Client</p>
     </div>
     <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-3 ">
-      <p className="font-bold font-orbitron">990</p>
+      <p className="font-bold font-orbitron text-offGold">990</p>
       <p className="text-[22px]">Client</p>
     </div>
     <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-4 ">
-      <p className="font-bold font-orbitron">990</p>
+      <p className="font-bold font-orbitron text-offGold">990</p>
       <p className="text-[22px]">Client</p>
     </div>
   </div>
@@ -52,7 +52,7 @@ const LeftSide = () => (
 const RightSide = () => (
   <div className=" text-offBlack dark:text-offWhite d-mode font-rajdhani z-[1]">
     <h2 className="text-offGold font-orbitron font-bold text-[16px] tracking-[2px]">About me</h2>
-    <h2 className="pt-[15px] font-rajdhani text-[42px] font-semibold leading-[1.2]">A UI/UX Designer & Web Developer Based in Philippines</h2>
+    <h2 className="pt-[15px] font-rajdhani text-[42px] font-semibold leading-[1.2]">A Full Stack Web Developer Based in India</h2>
     <p className="font-rajdhani text-[18px] pt-[15px] text-[#999999]">
       Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
     </p>
