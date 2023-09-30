@@ -33,20 +33,20 @@ const ColorShade = () => (
 const LeftSide = () => (
   <div className="grid grid-cols-2 gap-[20px] h-fit text-offBlack dark:text-offWhite font-rajdhani text-[28px] z-[1]">
     <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-1">
-      <p className="font-bold font-orbitron text-offGold">990</p>
-      <p className="text-[22px]">Client</p>
+      <p className="font-bold font-orbitron text-offGold">1,990</p>
+      <p className="text-[22px]">Happy Clients</p>
     </div>
     <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-2 ">
       <p className="font-bold font-orbitron text-offGold">990</p>
-      <p className="text-[22px]">Client</p>
+      <p className="text-[22px]">Project Done</p>
     </div>
     <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-3 ">
-      <p className="font-bold font-orbitron text-offGold">990</p>
-      <p className="text-[22px]">Client</p>
+      <p className="font-bold font-orbitron text-offGold">660</p>
+      <p className="text-[22px]">Cups of Coffee</p>
     </div>
     <div className="w-full h-[150px] bg-white shadow-2xl dark:bg-offGray d-mode flex-center flex-col animate-shake-4 ">
-      <p className="font-bold font-orbitron text-offGold">990</p>
-      <p className="text-[22px]">Client</p>
+      <p className="font-bold font-orbitron text-offGold">108</p>
+      <p className="text-[22px]">Happy Clients</p>
     </div>
   </div>
 );
