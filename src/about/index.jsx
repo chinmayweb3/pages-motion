@@ -18,12 +18,12 @@ const About = () => (
 export default framerComponent(About);
 
 const ColorShade = () => (
-  <div className="absolute top-[-30%] left-0 w-full h-full blur-[55px]">
+  <div className="absolute top-[-30%] left-0 w-full h-full blur-[50px]">
     <div
       style={{
         clipPath: "polygon(98% 9%, 99% 15%, 100% 43%, 67% 37%, 94% 63%, 1% 86%, 1% 34%, 77% 77%, 91% 27%, 58% 29%)",
       }}
-      className="bg-cyan-600 bg-gradient-to-tr from-[#f28500] dark:from-[#bd62a2] to-[#FFA1F5] dark:to-[#0a82fa] w-[70%] h-[100%] opacity-30 mx-auto"
+      className="bg-cyan-600 bg-gradient-to-tr from-[#f28500] dark:from-[#bd62a2] to-[#c2bf27] dark:to-[#0a82fa] w-[70%] h-[100%] opacity-40 mx-auto"
     />
   </div>
 );
