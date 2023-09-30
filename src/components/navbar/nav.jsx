@@ -7,10 +7,10 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full h-[80px] bg-offBlack/90 dark:bg-offWhite/90 d-mode backdrop-blur-md z-[20] flex">
+    <nav className="fixed top-0 left-0 w-full h-[60px] sm:h-[80px] bg-offBlack/90 dark:bg-offWhite/90 d-mode backdrop-blur-md z-[20] flex">
       <div className="h-[40px] my-auto max-width flex justify-between items-center text-offWhite dark:text-offWhite d-mode">
-        <h1 className="font-orbitron text-[32px] uppercase text-offWhite dark:text-offBlack d-mode">Logo..</h1>
-        <div className="flex-center text-[16px] font-rajdhani font-normal tracking-[2px]">
+        <h1 className="font-orbitron text-[28px] sm:text-[32px] uppercase text-offWhite dark:text-offBlack d-mode">Logo..</h1>
+        <div className="flex-center text-[14px] sm:text-[16px] font-rajdhani font-normal tracking-[2px]">
           <ModeChange />
           <BtnChoose to="/" text="Home" />
           <hr className="h-[40px] w-[1px] bg-offWhite dark:bg-offBlack" />
@@ -42,7 +42,7 @@ const ModeChange = () => {
             exit={{ top: "-100%" }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
-            <FiSun className={`fill-offWhite cursor-pointer w-[20px] h-[20px] `} />
+            <FiSun className={`fill-offWhite cursor-pointer w-[15px] md:w-[20px] h-[15px] md:h-[20px] `} />
           </motion.div>
         )}
       </AnimatePresence>
@@ -55,7 +55,7 @@ const ModeChange = () => {
             exit={{ top: "-100%" }}
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
-            <FiMoon className={`fill-offBlack stroke-0 cursor-pointer w-[20px] h-[20px] `} />
+            <FiMoon className={`fill-offBlack stroke-0 cursor-pointer w-[15px] md:w-[20px] h-[15px] md:h-[20px] `} />
           </motion.div>
         )}
       </AnimatePresence>

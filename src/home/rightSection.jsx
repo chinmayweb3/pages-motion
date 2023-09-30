@@ -9,10 +9,10 @@ const images = [
 ];
 const RightSection = () => {
   return (
-    <div className="basis-[50%] h-screen flex items-end justify-center overflow-hidden">
+    <div className="absolute xl:relative basis-[50%] h-screen flex items-end justify-center overflow-hidden">
       <div className="flex-center w-full max-h-[500px]">
         <img
-          className="object-contain w-full h-full  drop-shadow-[0_0_15px_#ffffff50] dark:drop-shadow-[0_0_15px_#00000090] p-[20px] pb-0"
+          className="object-contain w-full h-full  drop-shadow-[0_0_15px_#ffffff50] dark:drop-shadow-[0_0_15px_#00000090] md:p-[20px] pb-0"
           src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f9ed4816-c11c-48b1-9f8e-00c3a5ade0a8/dewzsjo-0581130f-c95f-40d2-a1dd-618c9572670a.png/v1/fill/w_1062,h_752/tanjiro_kamado_render_png_1_by_karmicraze_dewzsjo-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODgwIiwicGF0aCI6IlwvZlwvZjllZDQ4MTYtYzExYy00OGIxLTlmOGUtMDBjM2E1YWRlMGE4XC9kZXd6c2pvLTA1ODExMzBmLWM5NWYtNDBkMi1hMWRkLTYxOGM5NTcyNjcwYS5wbmciLCJ3aWR0aCI6Ijw9MTI0MiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.du5eKgI4d9qgOKSTUBrp7ThFNXOIx6QGr1_UL2Z5mmY"
         />
       </div>

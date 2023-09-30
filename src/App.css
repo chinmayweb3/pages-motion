@@ -114,6 +114,12 @@ body {
   @apply mx-auto w-[90%] max-w-[1500px];
 }
 
+@media screen and (max-width: 736px) {
+  .max-width {
+    @apply mx-auto w-[100%] pl-[8px] pr-[8px] max-w-[1500px];
+  }
+}
+
 .flex-center {
   @apply flex justify-center items-center;
 }

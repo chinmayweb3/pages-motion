@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const BtnChoose = (props) => {
   return (
     <Link
-      className="px-[20px] h-[40px] text-offWhite dark:text-offBlack d-mode overflow-hidden hover:bg-offWhite/5 group flex items-center relative"
+      className=" px-[15px] md:px-[20px] h-[40px] text-offWhite dark:text-offBlack d-mode overflow-hidden hover:bg-offWhite/5 group flex items-center relative"
       to={props.to}
     >
       {props.text}
@@ -29,7 +29,7 @@ const BtnChoose = (props) => {
 };
 const BtnChoose2 = (props) => {
   return (
-    <Link className="px-[20px] h-[40px] overflow-hidden hover:bg-white/5 group flex items-center relative" to={props.to}>
+    <Link className=" px-[15px] md:px-[20px] h-[40px] overflow-hidden hover:bg-white/5 group flex items-center relative" to={props.to}>
       {props.text}
       <div
         style={{ clipPath: "polygon(0 0, 0% 100%, 50% 50%)" }} //left
