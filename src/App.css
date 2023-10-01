@@ -22,6 +22,7 @@ body {
   width: 20%;
   height: 100vh;
   z-index: 20;
+  cursor: none;
 }
 
 .plane-h1-common {
