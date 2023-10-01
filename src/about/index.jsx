@@ -1,5 +1,6 @@
 import React from "react";
 import { framerComponent } from "../components/HOC/framerComponent";
+import cv from "../assets/cv.pdf";
 
 const About = () => (
   <main className="h bg-offWhite dark:bg-offBlack d-mode mt-[60px] sm:mt-[80px]">
@@ -77,8 +78,12 @@ const RightSide = () => (
       </div>
     </div>
 
-    <button className="uppercase bg-offGold px-[30px] text-[16px] sm:text-[18px] py-[10px] font-rajdhani tracking-[2px] font-semibold sm:font-bold mt-[60px]">
+    <a
+      href={cv}
+      target="_blank"
+      className="uppercase inline-block bg-offGold px-[30px] text-[16px] sm:text-[18px] py-[10px] font-rajdhani tracking-[2px] font-semibold sm:font-bold mt-[60px]"
+    >
       download cv
-    </button>
+    </a>
   </div>
 );
